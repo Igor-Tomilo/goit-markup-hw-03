@@ -12,6 +12,16 @@ body {
   background-color: rgb(223, 224, 224);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
 /* ======Component====== */
 
 .link {
@@ -41,7 +51,14 @@ body {
 .address-link:focus {
   color: var(--accent-color);
 }
-.navigation-list-link:hover,
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* .navigation-list-link:hover,
 .navigation-list-link:focus,
 .address-list-link:hover,
 .address-list-link:focus,
@@ -50,11 +67,31 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ======End Component====== */
 
 /* ======Header====== */
+.header {
+  padding: 30px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.header .address-list-header {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+}
 
 .logo-color-header {
   font-family: var(--secondary-font);
@@ -82,9 +119,30 @@ body {
   color: #757575;
 }
 
+.logo-img {
+  margin-right: 90px;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .address {
+  margin-left: auto;
+}
+.header .address-list-link-header:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* ======End Header====== */
 
 /* =========Hero======== */
+.hero-section {
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 235px;
+  padding-right: 235px;
+  padding-bottom: 280px;
+}
 
 .hero-title {
   font-weight: 900;
@@ -92,6 +150,10 @@ body {
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
+
+  width: 696px;
+  height: 120px;
 
   color: #ffffff;
 }
@@ -103,6 +165,13 @@ body {
   font-size: 16px;
   line-height: 1.875;
   color: #ffffff;
+  padding: 10px 32px;
+
+  min-width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* =========End Hero======== */
 
@@ -125,9 +194,32 @@ body {
 
   color: var(--subtitle-color);
 }
+
+.qualities-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.qualities-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.qualities-items {
+  width: 270px;
+}
+
+.qualities-list {
+  display: flex;
+}
 /* ================End Qualities=============== */
 
 /* =============Works================= */
+
+.warks-section {
+  padding-bottom: 95px;
+  text-align: center;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -136,9 +228,25 @@ body {
 
   color: var(--title-color);
 }
+.title {
+  margin-bottom: 50px;
+}
+
+.works-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* =============End Works================= */
 
 /* =================Our team==================== */
+
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
 .team-list-names {
   font-weight: 500;
   font-size: 16px;
@@ -158,9 +266,33 @@ body {
 
   color: var(--subtitle-color);
 }
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
+.team-list-names {
+  margin-bottom: 10px;
+}
+
 /* =================End Our team==================== */
 
 /* ===============Footer============= */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address {
   font-weight: 400;
   font-style: normal;
@@ -195,6 +327,20 @@ body {
 /* ===============End Footer============= */
 
 /* ============HTML Porfolio============= */
+
+.portfolio-section {
+  padding-top: 57px;
+}
+
+.portfolio-navigations-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-navigations-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio-navigations-link {
   font-style: normal;
   font-weight: 500;
@@ -251,4 +397,24 @@ body {
 
   color: var(--subtitle-color);
 }
-/* ============HTML End Porfolio============= */
+
+.portfolio-secondary-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-secondary-navigation-section {
+  padding-top: 34px;
+  padding-bottom: 131px;
+}
+
+.porfolio-nav-title {
+  margin-bottom: 4px;
+}
+
+.porfolio-nav-subtitle {
+  margin-bottom: 50px;
+}
+
+/* ============HTML Porfolio End ============= */

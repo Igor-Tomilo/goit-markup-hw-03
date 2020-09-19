@@ -1,0 +1,254 @@
+:root {
+  --accent-color: #2094f3;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --title-color: #212121;
+  --subtitle-color: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background color только чтоб видеть белые буквы */
+  background-color: rgb(223, 224, 224);
+}
+
+/* ======Component====== */
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2094f3;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus,
+.address:hover,
+.address:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus,
+.address:hover,
+.address:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+/* ======End Component====== */
+
+/* ======Header====== */
+
+.logo-color-header {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.address-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/* ======End Header====== */
+
+/* =========Hero======== */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button-services {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #ffffff;
+}
+/* =========End Hero======== */
+
+/* ================Qualities=============== */
+.qualities-list-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+.qualities-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+
+  color: var(--subtitle-color);
+}
+/* ================End Qualities=============== */
+
+/* =============Works================= */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+/* =============End Works================= */
+
+/* =================Our team==================== */
+.team-list-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.team-list-workplace {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: var(--subtitle-color);
+}
+/* =================End Our team==================== */
+
+/* ===============Footer============= */
+.address {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.address-list-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-color-footer {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+/* ===============End Footer============= */
+
+/* ============HTML Porfolio============= */
+.portfolio-navigations-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.portfolio-navigation-list-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.portfolio-navigations-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: var(--subtitle-color);
+}
+
+.portfolio-navigations-link:hover,
+.portfolio-navigations-link:focus {
+  color: var(--accent-color);
+}
+
+.porfolio-nav-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.porfolio-nav-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: var(--subtitle-color);
+}
+/* ============HTML End Porfolio============= */

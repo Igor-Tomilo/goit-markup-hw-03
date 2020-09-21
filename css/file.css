@@ -125,6 +125,7 @@ img {
 /* ======End Header====== */
 
 /* =========Hero======== */
+
 .hero-section {
   text-align: center;
   padding-top: 200px;
@@ -300,6 +301,10 @@ img {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list-link {

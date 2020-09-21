@@ -131,6 +131,7 @@ img {
   padding-left: 235px;
   padding-right: 235px;
   padding-bottom: 280px;
+  border-top: 1px solid #ececec;
 }
 
 .hero-title {
@@ -320,12 +321,18 @@ img {
 
   color: #ffffff;
 }
+
+.address-list {
+  margin-top: 20px;
+}
+
 /* ===============End Footer============= */
 
 /* ============HTML Porfolio============= */
 
 .portfolio-section {
   padding-top: 57px;
+  border-top: 1px solid #ececec;
 }
 
 .portfolio-navigations-list {
@@ -337,7 +344,6 @@ img {
   margin-right: 8px;
 }
 
-
 .portfolio-navigations-link {
   font-style: normal;
   font-weight: 500;
@@ -346,11 +352,9 @@ img {
   letter-spacing: 0.03em;
   padding: 8px 22px;
 
-
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  
-  
+
   color: var(--title-color);
 }
 
@@ -378,11 +382,7 @@ img {
 .portfolio-navigations-link:focus {
   color: #fff;
   background-color: var(--accent-color);
-
-
-  }
-
-
+}
 
 .porfolio-nav-title {
   font-family: Roboto;
@@ -424,6 +424,9 @@ img {
 }
 .card-subtitle {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* ============HTML Porfolio End ============= */
